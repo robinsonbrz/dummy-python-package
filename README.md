@@ -23,6 +23,14 @@ show_list.show_the_list(python_list)
 
 from dummy_python_package.utils_module import show_list_reverse
 show_list_reverse.show_the_reverse_list(python_list)
+
+
+
+from dummy_python_package.process_list import sum_list
+sum_list.sum_the_list([1, 2, 3, 4, 5, 6])
+
+from dummy_python_package.process_list import concatenate_list
+concatenate_list.concatenate_the_list([1, 2, 3, 4, 5, 6])
 ```
 
 ## Author
